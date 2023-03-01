@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(212, 45%, 89%);
+    max-width: 1440px;
+    font-family: 'Outfit', sans-serif;
+}
+#wrapper-div{
+    background: hsl(0, 0%, 100%);
+    max-width: 290px;
+    padding-bottom: 20px;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+#wrapper-div .desktop-design-image img{
+    text-align: center;
+    margin: 15px 15px;
+    border-radius: 10px;
+}
+#wrapper-div h1{
+    font-size: 22px;
+    text-align: center;
+    padding: 5px 15px;
+    color: hsl(218, 44%, 22%);
+}
+#wrapper-div p{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: hsl(220, 15%, 55%);
+}
+/* @MEDIA SCREENS */
